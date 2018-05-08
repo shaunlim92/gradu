@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.first.DotFile_Show">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/File_FindName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dot Book List"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:background="@drawable/view_edge2"
+        android:layout_alignParentTop="true"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:gravity="top"/>
+    <ListView
+        android:id="@+id/DotFile_View"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/File_FindName"
+        android:layout_height="match_parent"></ListView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
